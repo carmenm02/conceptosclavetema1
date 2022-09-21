@@ -11,4 +11,5 @@ class Punto:
     def __init__(self,Y):
         self.Y = Y
         return Y
-
+    def __str__(self):
+        return +str(self.X)+","+str(self.Y)
