@@ -23,15 +23,6 @@ class Punto:
             print("El punto de coordenadas ({},{}) está sobre el origen")
     def vector(self,punto):
         print("El vector entre {}) y {}) es ({},{})".format(self,punto,punto.X-self.X,punto.Y-self.Y))
-    
-
-A = Punto(2,3)
-B = Punto(5,5)
-C = Punto(-3,-1)
-D = Punto(0,0)
-
-A.vector(B)
-C.vector(D)
 
 class Rectángulo:
     inicial = 0
@@ -42,4 +33,15 @@ class Rectángulo:
         self.final = final
     def __str__(self):
         return "(punto1{},punto2{})".format(self.inicial,self.Y)
-        
+    def base(self):
+        print("La base del rectangulo es:")
+
+
+
+A = Punto(2,3)
+B = Punto(5,5)
+C = Punto(-3,-1)
+D = Punto(0,0)
+
+A.vector(B)
+C.vector(D)
