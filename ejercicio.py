@@ -6,20 +6,19 @@ class Punto:
     X = 0
     Y = 0
     def __init__(self,X):
+        X = input()
         self.X = X
         return X
     def __init__(self,Y):
+        Y = input()
         self.Y = Y
         return Y
     def __str__(self):
         return +str(self.X)+","+str(self.Y)
-    def cuadrante():
+    def cuadrante(self,X,Y):
         if X == 0 and Y != 0:
-            print("Se encuentra en el eje Y")
+            print("Se sitúa sobre el eje Y")
         elif X != 0 and Y == 0:
-            print("Se encuentra en el eje X")
+            print("Se sitúa sobre el eje X")
         elif X == 0 and Y == 0:
-            print("Se encuentra en el origen")
-Punto.cuadrante()
-
-
+            print("Está sobre el origen")
