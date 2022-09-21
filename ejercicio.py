@@ -1,5 +1,6 @@
 from re import X
 from tkinter import Y
+import math
 
 
 class Punto:
@@ -22,3 +23,5 @@ class Punto:
             print("Se sitúa sobre el eje X")
         elif X == 0 and Y == 0:
             print("Está sobre el origen")
+    def vector(self,punto):
+        print("El vector entre los dos puntos es".format(self,punto,punto.X-self.X,punto.Y-self.Y))
