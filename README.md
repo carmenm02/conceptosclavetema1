@@ -4,7 +4,9 @@
 
 Este es el link del [repositorio](https://github.com/carmenm02/conceptosclavetema1.git)
 
-*Ejercicio*:
+```
+## Ejercicio :
+
 from math import sqrt
 from re import X
 from tkinter import Y
@@ -52,3 +54,4 @@ D = Punto(0,0)
 
 A.vector(B)
 C.vector(D)
+```
