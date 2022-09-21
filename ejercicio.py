@@ -21,7 +21,7 @@ class Punto:
         elif X == 0 and Y == 0:
             print("Está sobre el origen")
     def vector(self,punto):
-        print("El vector entre {} y {} es ({},{})".format(self,punto,punto.X-self.X,punto.Y-self.Y))
+        print("El vector entre {}) y {}) es ({},{})".format(self,punto,punto.X-self.X,punto.Y-self.Y))
 
 A = Punto(2,3)
 B = Punto(5,5)
