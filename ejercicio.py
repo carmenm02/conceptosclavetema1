@@ -1,6 +1,8 @@
+from math import sqrt
 from re import X
 from tkinter import Y
-import math
+
+from regex import B
 
 
 class Punto:
@@ -25,3 +27,11 @@ class Punto:
             print("Está sobre el origen")
     def vector(self,punto):
         print("El vector entre los dos puntos es".format(self,punto,punto.X-self.X,punto.Y-self.Y))
+
+A = Punto(2,3)
+B = Punto(5,5)
+C = Punto(-3,-1)
+D = Punto(0,0)
+
+A.vector(B)
+C.vector(D)
